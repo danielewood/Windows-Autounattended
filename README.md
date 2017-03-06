@@ -21,7 +21,8 @@
 
 ##Autounattend.xml
  - Place in the install media root directory.
- - 64bit only
+ - 64bit, EFI only
+ - Will wipe and install on first hard drive in system
  - Creates Local Admin account and enables auto-login for next three boots.
  - Replace \<Value>Windows 8.1 Enterprise\</Value> with the correct image name for no-prompt installs.
  - Remove the \<InstallFrom> section for it to always prompt for all images available in the install.wim
