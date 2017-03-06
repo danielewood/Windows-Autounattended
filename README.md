@@ -9,8 +9,7 @@
  
 ##FirstRun.bat
  - Place in the install media: $Drive\FirstRun\FirstRun.bat
- - Will be automatically placed into C:\Windows\Setup\Scripts on Windows install.
- - DotNet 3.5, DotNet 4.6.2, Installs WMF5.1
+ - Installs DotNet 4.6.2, Installs WMF5.1
     - These take place prior to displaying interactive session, so be patient on first boot.
   
 ##NoSleep.ps1
