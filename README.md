@@ -1,5 +1,7 @@
 # Unattended-Windows
 
+## Use the boot.wim from Windows Server 2016
+
 ##FirstRun.cmd
  - Place in the install media: sources\$OEM$\$$\Setup\Scripts\FirstRun.cmd
  - Will be automatically placed into C:\Windows\Setup\Scripts on Windows install.
