@@ -124,7 +124,7 @@
 					<InstallFrom>
 						<MetaData wcm:action="add">
 							<Key>/IMAGE/NAME</Key>
-							<Value>Windows 8.1 Enterprise</Value>
+							<Value>Windows 10 Enterprise</Value>
 						</MetaData>
 					</InstallFrom>
 				</OSImage>
