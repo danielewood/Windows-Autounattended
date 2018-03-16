@@ -3,7 +3,7 @@
 #### Use Server 2016 to create your base ISO, it works best. Then swap in your preferred WIM file.
 
 ## FirstRun.cmd
- - Place in the install media: sources\$OEM$\Setup\Scripts\FirstRun.cmd
+ - Place in the install media: sources\\$OEM$\Setup\Scripts\FirstRun.cmd
  - Will be automatically placed into C:\Windows\Setup\Scripts on Windows install.
  - Automatically cycles through all drive letters searching for $Drive\FirstRun\FirstRun.bat and executes with Admin privilages on first run.
  
