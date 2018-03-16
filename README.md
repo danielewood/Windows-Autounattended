@@ -9,13 +9,15 @@
  
 ## FirstRun.bat
  - Place in the install media: $Drive\FirstRun\FirstRun.bat
- - Installs DotNet 4.6.2, Installs WMF5.1
-    - These take place prior to displaying interactive session, so be patient on first boot.
   
 ## FirstRun.ps1
  - Place in the install media: $Drive\FirstRun\FirstRun.ps1
- - Runs custom powershell commands to install additional software, name computer, and join domain
+ - Runs custom powershell commands to install additional software
 
+## NoSleep.ps1
+ - Place in the install media: $Drive\FirstRun\NoSleep.ps1
+ - Moves mouse every 30 seconds to prevent screen saver during initial First boot install and update process.
+  
 ## Autounattend.xml
  - Place in the install media root directory.
  - 64bit, EFI only
